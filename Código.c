@@ -3,11 +3,11 @@
 int main(){
 
 char nome[100];
-int X,Y,soma;
+int X,Y,total;
 
 printf("Digite o primeiro numero e o segundo numero);
 scanf("%d %d",&X,&Y);
-soma = X + Y;
+total = X + Y;
 
 printf("A soma deles é: %d",soma);
 
