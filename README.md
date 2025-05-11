@@ -10,10 +10,10 @@ Este repositório é dedicado à nossa colaboração em estudos, exercícios e p
   [LinkedIn](https://br.linkedin.com/in/sabrinna-louise-cortes-fernandes-6aabb5290)
 
 - **Dan Marangon**  
-  *(Github/DanMarangon)*
+  [github](Github/DanMarangon)
 
 - **Victor Hugo**  
-  *(Github/Victor-Rodrigues06)*
+  [github](Github/Victor-Rodrigues06)
 
 ---
 
