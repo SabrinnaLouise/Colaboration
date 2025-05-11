@@ -1,21 +1,30 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+    char nome[100];
+    int X, Y, soma, subtracao, multiplicacao;
+    float divisao;
 
-char nome[100];
-int X,Y,total;
+    printf("Digite o primeiro numero e o segundo numero: ");
+    scanf("%d %d", &X, &Y);
 
-printf("Digite o primeiro numero e o segundo numero);
-scanf("%d %d",&X,&Y);
-total = X + Y;
+    soma = X + Y;
+    subtracao = X - Y;
+    multiplicacao = X * Y;
+    divisao = (float)X / Y;
 
-printf("A soma deles é: %d",soma);
+    printf("\nResultados das operacoes:\n");
+    printf("Soma: %d\n", soma);
+    printf("Subtracao: %d\n", subtracao);
+    printf("Multiplicacao: %d\n", multiplicacao);
+    printf("Divisao: %.2f\n", divisao);
 
-printf("Digite o seu nome: ");
-scanf("%99s",&nome);
+    getchar();
 
-printf("Seu nome e: %s",nome);
+    printf("\nDigite o seu nome: ");
+    fgets(nome, sizeof(nome), stdin);
 
+    printf("Oi, %sVocê é brabo(a)! Seu código rodou!\n", nome);
 
-return 0;
+    return 0;
 }
